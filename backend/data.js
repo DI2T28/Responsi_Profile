@@ -2,6 +2,7 @@
 const educationHistory = [  
  { id: 1, period: '2023 - Sekarang', institution: 'Universitas Amikom Yogyakarta', major: 'S1 - Informatika' },
  { id: 2, period: '2019 - 2022', institution: 'SMK Yapis Mimika', major: 'TKJ' } 
+ { id: 3, period: '2019 - 2022', institution: 'SMP Negeri 4 Mimika', major: ',' } 
 ];
 const skills = [ 
   { name: 'Vue.js', level: 'Mahir', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' },
@@ -14,15 +15,15 @@ const skills = [
   { name: 'MySQL', level: 'Menengah', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
 ];
 const projects = [ 
-{ title: 'JWR Comp', image: 'https://photos.google.com/u/1/photo/AF1QipPARyi_wsEqpbo6r_AWeSlT75QIl5m6n50v1PM" alt="Project preview',
+{ title: 'JWR Comp', image: 'https://www.pinhome.id/info-area/wp-content/uploads/2021/12/toko-laptop-malang.jpg',
 description: 'Toko Komputer dan Berbagai Leptop dan Part PC.', tech: ['Vue.js','Bootstrap', 'Laravel',
 'MySQL'], link: 'https://github.com/FERDEVIL87/Final-Project-Web-JWRCOMP' },
 {
   title: 'Website Portofolio Responsi',
-  image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070',
+  image: 'https://cdn.autonomous.ai/static/upload/images/common/upload/20200930/5d8e42001ee.jpg',
   description: 'Website portofolio pribadi yang dibangun menggunakan Vue.js dan Express.js sebagai syarat kelulusan Responsi Praktikum Pemrograman Web.',
   tech: ['Vue.js', 'Express.js', 'Vercel'],
-  link: 'https://github.com/DI2T28/Web_Profile'
+  link: 'https://github.com/DI2T28/Responsi_Profile'
   }
 ];
 module.exports = { educationHistory, skills, projects };
