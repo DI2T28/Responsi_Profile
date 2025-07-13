@@ -1,7 +1,7 @@
 // backend/data.js
 const educationHistory = [  
  { id: 1, period: '2023 - Sekarang', institution: 'Universitas Amikom Yogyakarta', major: 'S1 - Informatika' },
- { id: 2, period: '2019 - 2022', institution: 'SMK Yapis Mimika', major: 'TKJ' } 
+ { id: 2, period: '2019 - 2022', institution: 'SMK Yapis Mimika', major: 'TKJ' },
  { id: 3, period: '2019 - 2022', institution: 'SMP Negeri 4 Mimika', major: ',' } 
 ];
 const skills = [ 
